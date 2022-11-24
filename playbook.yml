@@ -1,0 +1,7 @@
+---
+- name: install mongodb
+  hosts: all
+  tasks:
+    - name: Include ansible-mongodb
+      include_role:
+        name: ansible-mongodb
